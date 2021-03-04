@@ -9,16 +9,20 @@ class bmr extends Component {
                 <div className="form">
                     <h2>BMR &amp; Daily Calorie Calculator</h2>
                     <div className="inputwrap">
-                        <label className="label">Gender</label><label><input type="radio" className="genderF" name="gender" value="1" />Female</label><label><input type="radio" className="genderM" name="gender" value="2" />Male</label>
+                        <label className="label">Gender</label><label>
+                            <input type="radio" className="genderF" name="gender" value="1" />Female</label><label><input type="radio" className="genderM" name="gender" value="2" />Male</label>
                     </div>
                     <div className="inputwrap">
-                        <label className="label">Weight in Pounds</label><input type="number" name="weight" className="weight" min="0" max="999" />
+                        <label className="label">Weight in Pounds</label>
+                        <input type="number" name="weight" className="weight" min="0" max="999" />
                     </div>
                     <div className="inputwrap">
-                        <label className="label">Height in feet and inches</label><input type="number" name="heightFeet" className="heightFeet" min="0" max="8" /><input type="number" name="heightInches" className="heightInches" min="0" max="11" />
+                        <label className="label">Height in feet and inches</label>
+                        <input type="number" name="heightFeet" className="heightFeet" min="0" max="8" /><input type="number" name="heightInches" className="heightInches" min="0" max="11" />
                     </div>
                     <div className="inputwrap">
-                        <label className="label">Age in years</label><input type="number" className="age" name="age" min="0" max="120" />
+                        <label className="label">Age in years</label>
+                        <input type="number" className="age" name="age" min="0" max="120" />
                     </div>
                     <button type="button">Calculate BMR</button>
                     <div className="workout">
